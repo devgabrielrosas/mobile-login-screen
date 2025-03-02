@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Login Screen</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+      <header>
+        <h1>Myapp</h1>
+      </header>
+      <main>
+
+        <section>
+
+            <h2>LOGIN</h2>
+            <form action="#" method="post" autocomplete="on">
+
+                <label for="iemail"><p>EMAIL:</p></label>
+                <input class="campo" type="email" name="email" id="iemail" autocomplete="email" required placeholder="Your email...">
+
+                <label for="ipassword"><p class="senha">PASSWORD:</p></label>
+                <input class="campo" type="password" name="password" id="ipassword" autocomplete="current-password" required placeholder="Your password..." minlength="8">
+
+                <p class="forgout"><a href="#">Forgout you password?</a></p>
+
+                <input id="singIn" type="submit" value="Sing In">
+            </form>
+
+            <p id="noAccount">No account? <a id="createOne" href="#">Create one!</a></p>
+
+        </section>
+      </main>
+
+      <footer>
+        <div class="dark block"></div>
+        <div class="med block"></div>
+        <div class="light block"></div>
+      </footer>
+</body>
+</html>
